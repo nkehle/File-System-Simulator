@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "acceptance test",
+      "setup": "make && wget -O ag_tests.tgz -q https://github.com/amigler/357-f23/raw/main/autograder/a2/ag_tests.tgz && tar -xf ag_tests.tgz && chmod 700 ag_test.sh",
+      "run": "./ag_test.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": null
+    }
+  ]
+}
